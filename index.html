@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Connect With Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 20px 0;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      font-size: 26px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+      max-width: 450px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .card h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: #ddd;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 14px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      color: #fff;
+    }
+
+    .btn i {
+      font-size: 18px;
+    }
+
+    .facebook { background: #3b5998; }
+    .snapchat { background: #fffc00; color: #000; }
+    .x { background: #000; }
+    .linkedin {
+    background: #0077b5;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+
+    #copy-msg {
+      margin-top: 12px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background: rgba(255, 255, 255, 0.05);
+      font-size: 14px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    @media (max-width: 500px) {
+      .card h1 { font-size: 24px; }
+      .btn { font-size: 14px; padding: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>Welcome to My Social World</header>
+
+  <section class="main">
+    <div class="card">
+      <h1>Hello, I'm Dhruv Prajapati</h1>
+      <p>Follow me on your favorite platforms. Just click and connect!</p>
+
+      <button class="btn facebook" onclick="window.open('https://www.facebook.com/share/1FvuZjMLYy/', '_blank')">
+        <i class="fab fa-facebook-f"></i> Facebook
+      </button>
+
+      <button class="btn snapchat" onclick="window.open('https://www.snapchat.com/add/dhruvp_71?share_id=t8NSYMrTNmU&locale=en-GB', '_blank')">
+        <i class="fab fa-snapchat-ghost"></i> Snapchat
+      </button>
+
+      <button class="btn x" onclick="window.open('https://x.com/dhruv_p17?t=gAZ7Z2jnUXpzA6XOtuPDjA&s=09', '_blank')">
+        <i class="fab fa-x-twitter"></i> X (Twitter)
+      </button>
+
+      <button class="btn linkedin" onclick="window.open('https://www.linkedin.com/in/dhruv-prajapati-a66569301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', '_blank')">
+        <i class="fab fa-linkedin-in"></i> LinkedIn
+      </button>
+      
+
+    </div>
+  </section>
+
+  <footer>&copy; 2025 Dhruv Prajapati | Designed with Love</footer>
+
+  
+
+</body>
+</html>
